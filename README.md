@@ -8,6 +8,7 @@
 
 # Requirements
 > [CounterStrikeSharp](https://docs.cssharp.dev/) installed.
+
 > [CSSharpPatcher](https://github.com/samyycX/CSSharpPatcher) for volume to work.
 
 # Features
