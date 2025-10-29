@@ -1,0 +1,35 @@
+# ======================================================================
+# SANK SOUNDS CONFIG
+# Description: Define custom join messages, join sounds, and chat sounds.
+# Author: keno
+# Steam: https://steamcommunity.com/id/kenoxyd/
+# Discord: kenoxyd
+# For private requests DM me
+# ======================================================================
+# Notes:
+# - Lines starting with '#' are comments.
+# - Use {player} in messages to include the player's name.
+# - SteamID64 must be a 17-digit number.
+# - Sound paths are relative to your CS2 "sound" folder.
+# - Join Sounds: STEAMID64 SOUNDEVENTNAME VOLUME
+# - Chat Sounds: TRIGGER SOUNDEVENTNAME VOLUME
+# - Chat Sounds Alias Format: TRIGGER1;TRIGGER2
+# ======================================================================
+
+########################
+CUSTOM_JOIN_MESSAGES
+########################
+msg1: "{player} joined the server"
+msg2: "Big boss {player} has arrived!"
+msg3: "Everyone welcome {player}!"
+
+########################
+JOIN_SOUNDS
+########################
+76561198328633919 SOUNDEVENTNAME 0.8 msg1
+
+########################
+CHAT_SOUNDS
+########################
+gg;goodgame SOUNDEVENTNAME 0.2
+bruh SOUNDEVENTNAME 1.0
