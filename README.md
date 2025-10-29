@@ -39,6 +39,10 @@
 
 # Config
 ```txt
+
+# - Join Sounds: STEAMID64 SOUNDEVENTNAME VOLUME
+# - Chat Sounds: TRIGGER SOUNDEVENTNAME VOLUME
+
 ########################
 CUSTOM_JOIN_MESSAGES
 ########################
