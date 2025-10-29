@@ -1,4 +1,4 @@
-﻿using CounterStrikeSharp.API;
+using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Core.Attributes.Registration;
 using CounterStrikeSharp.API.Modules.Commands;
@@ -157,7 +157,6 @@ public class Sank_Sounds : BasePlugin
         {
             RecipientFilter filter = player;
             player.EmitSound(path, filter, volume);
-            Server.PrintToChatAll($"[Sank Sounds] Playing '{path}' at volume {volume}");
 
         }
     }
