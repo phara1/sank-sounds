@@ -38,7 +38,7 @@
 - Edit the sank_sounds.keno file to edit sounds.
 
 # Config
-```json
+```txt
 ########################
 CUSTOM_JOIN_MESSAGES
 ########################
